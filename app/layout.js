@@ -7,6 +7,7 @@ export const metadata = {
   title: "Thala for a reason",
   description:
     "A Photo gallery for M.S. Dhoni inspired from Sachin Tendulkar's website",
+  metadataBase: new URL("https://dhoni-image-gallery.netlify.app"),
 };
 
 export default function RootLayout({ children }) {
